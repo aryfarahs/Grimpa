@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    border: 1px dashed red;
+}
+
+:root {
+    --branco: ;
+    --preto: ;
+    --bordo: ;
+    --verde: ;
+
+}
+
+.top-header {
+    /*background-color: aqua;*/
+    display: block;
+}
+
+.scroll-header {
+    display: none;
+    justify-content: center ;
+}
+
+.div-header {
+    display: flex;
+    flex-direction: column;    
+    padding: 3%;
+}
+
+.logo-top-header {
+    width: 30%;
+    margin: auto;
+}
+
+.nav-pag {
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+}
+
+.nav-pag > ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
