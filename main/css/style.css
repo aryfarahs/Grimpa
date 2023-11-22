@@ -6,12 +6,15 @@
 }
 
 :root {
-    --branco: #FBFBFF;
-    --offwhite: #F3EDE0;
     --preto: #121517;
     --cinza: #D9D9D9;
-    --bordo: #A21C1F;
+    --branco: #FBFBFF;
+    --offwhite: #F3EDE0;
+    --verde-azul: #7CA982;
+    --verde-claro: #A5B878;
     --verde-escuro: #408100;
+    --bordo: #A21C1F;
+
 }
 
 html {
@@ -80,6 +83,7 @@ a {
 
 .nav-select {
     background-color: var(--verde-escuro);
+    color: var(--offwhite);
     border-radius: 10px;
     padding: 1% 10%;
 }
