@@ -1,12 +1,17 @@
 document.addEventListener("scroll", function() {
-    var topHeader = document.querySelector(".top-header");
-    var scrollHeader = document.querySelector(".scroll-header");
+    var topHeader = document.getElementById("TH");
+    var saibaMais = document.getElementById("more")
+    var navHeader = document.getElementById("navH")
 
     if (window.scrollY > 50) {
-        topHeader.style.display = 'none';
-        scrollHeader.style.display = 'block';
-    } else {
-        topHeader.style.display = 'block';
-        scrollHeader.style.display = 'none'
+        topHeader.classList.remove('top-reader');
+        topHeader.classList.add('scroll-header');
+        saibaMais.classList.remove('sumiu')
+
+    } else if (window.scrollY < 50) {
+        topHeader.classList.add('top-reader');
+        topHeader.classList.remove('scroll-header');
+        saibaMais.classList.add('sumiu')
+
     }
 }); 
