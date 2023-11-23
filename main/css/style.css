@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
-    border: 1px dashed red;
 }
 
 :root {
@@ -30,16 +29,11 @@ a {
     color: black;
 }
 
-div {
-    transition: 1s ease-in;
-}
-
 .top-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
-    transition: 1s;
+    font-size: 70%;
 }
 
 .scroll-header {
@@ -60,7 +54,7 @@ div {
 
 .scroll-header > #navH {
     width: 55%;
-    font-size: 14px;
+    font-size: 90%;
 }
 
 .nav-princ {
